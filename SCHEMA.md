@@ -45,6 +45,8 @@ One row per PURSUE document. In JSONL the five entity lists are nested under `en
 | `dates_mentioned` | AI: dates mentioned (list). JSONL: entities.dates. |
 | `analysis_model` | Claude model that wrote the AI fields. |
 | `analyzed_at` | Date of the AI analysis (YYYY-MM-DD). |
+| `page_count` | Pages in the PDF (empty for images and videos, or before transcription). |
+| `transcribed` | true when every page has a row in pages.jsonl. |
 
 ## releases.csv
 
@@ -62,6 +64,18 @@ One row per PURSUE release.
 | `uapinsight_url` | The release page on uapinsight.com. |
 | `overview` | AI: plain-text overview of what the release contains. |
 | `overview_model` | Claude model that wrote the overview. |
+
+## pages.jsonl
+
+One line per PDF page: the machine transcription (JSONL only — page text is multi-line).
+
+| Column | Description |
+|---|---|
+| `doc_id` | The document (documents.csv id). |
+| `page` | Page number in the PDF, from 1. |
+| `status` | ok, or blocked / failed when no transcript could be made (text is null). |
+| `model` | Claude model that transcribed the page. |
+| `text` | Machine transcription of the page: [REDACTED] for blacked-out text, [illegible] for unreadable words; empty for blank or picture-only pages. Can contain reading errors. |
 
 ## coverage.csv
 

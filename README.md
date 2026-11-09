@@ -10,6 +10,8 @@ and links to the official files.
 <!-- generated:start -->
 **478 documents** (30 image, 298 PDF, 150 video) from **7 PURSUE releases**, 11 agencies, and 133 linked news articles.
 
+Full machine transcription of 12,407 PDF pages.
+
 Newest release: Release 7 (2026-10-23). Data as of 2026-11-09.
 <!-- generated:end -->
 
