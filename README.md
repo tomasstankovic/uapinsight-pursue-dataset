@@ -49,7 +49,7 @@ public domain. See [LICENSE](LICENSE) and [CITATION.cff](CITATION.cff).
 
 > uapinsight.com. *PURSUE UAP Document Dataset.* https://uapinsight.com/pursue/data
 
-Also on Hugging Face and Kaggle as `uapinsight/pursue-dataset`.
+Also on [Hugging Face](https://uapinsight.com/pursue/data/huggingface) and [Kaggle](https://uapinsight.com/pursue/data/kaggle).
 
 ## About
 
