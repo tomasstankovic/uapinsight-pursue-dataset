@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to https://uapinsight.com/pursue/data."
+type: dataset
+title: "PURSUE UAP Document Dataset"
+abstract: "Structured AI analysis and page-by-page machine transcription of every document in the U.S. government's PURSUE (Presidential Unsealing and Reporting System for UAP Encounters) declassified UFO/UAP releases on war.gov/UFO, with links to the official originals and to news coverage of each release."
+authors:
+  - name: "uapinsight.com"
+    website: "https://uapinsight.com"
+url: "https://uapinsight.com/pursue/data"
+repository-code: "https://github.com/tomasstankovic/uapinsight-pursue-dataset"
+license: CC-BY-4.0
+keywords:
+  - UAP
+  - UFO
+  - PURSUE
+  - declassified
+  - government documents
+  - open data
