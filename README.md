@@ -2,8 +2,8 @@
 
 An open dataset of every document in the U.S. government's **PURSUE** releases — the
 *Presidential Unsealing and Reporting System for UAP Encounters* on
-[war.gov/UFO](https://www.war.gov/UFO/) — with a structured analysis of each document
-and links to the official files.
+[war.gov/UFO](https://www.war.gov/UFO/) — with a structured analysis of each document,
+a page-by-page transcription of every PDF, and links to the official files.
 
 **Canonical page:** [uapinsight.com/pursue/data](https://uapinsight.com/pursue/data) · Updated daily.
 
@@ -22,6 +22,7 @@ Newest release: Release 7 (2026-10-23). Data as of 2026-11-09.
 | `data/documents.csv`, `data/documents.jsonl` | One row per document: war.gov metadata plus our analysis — summary, key findings, classification, redaction level, described object shape and behaviour, witness and evidence types, the document's own conclusion, **credibility notes** (limits of the evidence and mundane explanations the document mentions), named programs and entities, significance score. |
 | `data/releases.csv` | One row per release, with a plain-text overview of what it contains. |
 | `data/coverage.csv` | News articles linked to the release they cover (title, outlet, date, link). |
+| `data/pages.jsonl` | **Full text:** a page-by-page machine transcription of every PDF (one JSON line per page: `doc_id`, `page`, `status`, `model`, `text`). |
 | `SCHEMA.md` | Every column, described. |
 
 Every row links to the original file on war.gov and to its page on uapinsight.com.
@@ -32,6 +33,10 @@ Every row links to the original file on war.gov and to its page on uapinsight.co
 - Claude (Anthropic) read each original PDF, image or video record and wrote the
   analysis fields. **They are machine-generated and can be wrong.** Check the original
   before you rely on a detail.
+- Every PDF page was also transcribed by Claude from the page image (`pages.jsonl`). War.gov's own text
+  layer is poor OCR, so this is a fresh reading — still a machine transcription that can misread old
+  typewriter text and handwriting. Redactions are marked `[REDACTED]`, unreadable words `[illegible]`;
+  a few pages were declined by the model's content filter (`status: blocked`, no text).
 - The analysis reports what a document says; it does not judge whether a sighting was
   real. Redacted text stays redacted.
 - Coverage links are found automatically by matching our news feed to releases.
