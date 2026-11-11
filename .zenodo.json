@@ -1,0 +1,33 @@
+{
+  "upload_type": "dataset",
+  "title": "PURSUE UAP Document Dataset",
+  "creators": [
+    {
+      "name": "uapinsight.com"
+    }
+  ],
+  "description": "Structured AI analysis and page-by-page machine transcription of every document in the U.S. government's PURSUE (Presidential Unsealing and Reporting System for UAP Encounters) declassified UFO/UAP releases on war.gov/UFO, with links to the official originals. Transcriptions and structured fields are machine-generated (Claude) from the official PDFs and labelled as such; every row keeps the link to its source document. Column documentation: SCHEMA.md. Browse and cite: https://uapinsight.com/pursue/data",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "UAP",
+    "UFO",
+    "PURSUE",
+    "declassified",
+    "government documents",
+    "open data",
+    "transcription"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://uapinsight.com/pursue/data",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://www.war.gov/ufo/",
+      "relation": "isDerivedFrom",
+      "resource_type": "other"
+    }
+  ]
+}
