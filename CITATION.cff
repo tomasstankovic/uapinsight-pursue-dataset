@@ -9,6 +9,11 @@ authors:
 url: "https://uapinsight.com/pursue/data"
 repository-code: "https://github.com/tomasstankovic/uapinsight-pursue-dataset"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24141798
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24141798
+    description: "Concept DOI (always resolves to the latest version)"
 keywords:
   - UAP
   - UFO
