@@ -34,6 +34,9 @@ One row per PURSUE document. In JSONL the five entity lists are nested under `en
 | `evidence_types` | AI: types of evidence in or referenced by the document (list). |
 | `official_conclusion` | AI: the document's own stated conclusion. |
 | `credibility_notes` | AI: limits of the evidence and mundane explanations noted in the document — the skeptical column. |
+| `record_verdict` | AI classification of what the document itself states: explained (the record names a mundane cause as its finding), unresolved, open (under investigation), no_judgment (no conclusion stated), not_incident (no single incident report: papers, letters, artwork, compilations). |
+| `record_explanations` | AI classification of what the document itself states: mundane explanations the record raises, adopted or not (list of balloon, aircraft_drone, satellite_space, astronomical, bird, sensor_artifact, weather_atmospheric, hoax, other). |
+| `evidence_basis` | AI classification of what the document itself states: what the account rests on — multi_sensor, single_sensor, witness_only or none. |
 | `incident_duration` | AI: how long the event lasted, as stated. |
 | `government_programs` | AI: government programs named in the document (list). |
 | `exceptional_type` | AI: historical, disclosure, high_credibility, or empty. |
