@@ -13,6 +13,8 @@ a page-by-page transcription of every PDF, and links to the official files.
 Full machine transcription of 12,407 PDF pages.
 
 Newest release: Release 7 (2026-10-23). Data as of 2026-11-09.
+
+Cite: [doi.org/10.5281/zenodo.24141798](https://doi.org/10.5281/zenodo.24141798) (Zenodo, versioned archive).
 <!-- generated:end -->
 
 ## Files
