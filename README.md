@@ -57,5 +57,5 @@ Also on [Hugging Face](https://uapinsight.com/pursue/data/huggingface) and [Kagg
 
 Built and maintained by [uapinsight.com](https://uapinsight.com), a curated daily
 digest of UAP news and government releases, by
-[Tomáš Stankovič](https://github.com/tomasstankovic). Corrections and suggestions:
+[Tomáš Stankovič](https://tomasstankovic.dev). Corrections and suggestions:
 open an issue.
