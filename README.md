@@ -8,11 +8,11 @@ a page-by-page transcription of every PDF, and links to the official files.
 **Canonical page:** [uapinsight.com/pursue/data](https://uapinsight.com/pursue/data) · Updated daily.
 
 <!-- generated:start -->
-**521 documents** (30 image, 338 PDF, 153 video) from **8 PURSUE releases**, 11 agencies, and 137 linked news articles.
+**521 documents** (30 image, 338 PDF, 153 video) from **8 PURSUE releases**, 11 agencies, and 138 linked news articles.
 
 Full machine transcription of 13,248 PDF pages.
 
-Newest release: Release 8 (2026-11-20). Data as of 2026-11-21.
+Newest release: Release 8 (2026-11-20). Data as of 2026-11-22.
 
 Cite: [doi.org/10.5281/zenodo.24141798](https://doi.org/10.5281/zenodo.24141798) (Zenodo, versioned archive).
 <!-- generated:end -->
